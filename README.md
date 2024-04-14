@@ -1,15 +1,13 @@
-# Full-Stack-Rent-A-Car-System
+# Angular + ASP.Net (Car Rent App)
 
 ![alt text](https://i.hizliresim.com/7TfAdR.png)
 
-Hi everyone :wave: <br>
-Welcome to the Rent A Car System project developed as Full Stack. <br> <br>
+
+Welcome to the Car Rent App developed with Angular and ASP.Net. <br> <br>
 This project has been developed based on Multi-Layered Architecture. 
 SOLID software principles have been adopted in the project. 
 Front-End part is coded with Angular, Back-End part is coded with C#. 
 MSSQL Local Database is used for the database. 
-In addition, a Web API has been coded in service layer to communicate with the Front-End side of the project and other applications. 
-I would like to tell you about the main features of the project.
 <br>
 
 <h2>
@@ -21,20 +19,6 @@ From this panel, follow the path of "SQL Server > (localdb)\MSSQLLocalDB", right
 select "Add New Database" and create your database. (I have chosen "RentACarSystem" as database name) <br>
 <br>
 
-![alt text](https://i.hizliresim.com/9oNgBu.png)
-
-Then, right click on the created database and select the "New Query" option and execute the table creation commands <a href="https://github.com/melihkaratekin/Full-Stack-Rent-A-Car-System/blob/main/Back-End/CreateTableScript.sql">here</a>. 
-Thus, the tables required for the project will be created. 
-You can add data manually from the opened page by right clicking on the created tables and selecting "View Data".
-
-![alt text](https://i.hizliresim.com/cB91j4.png)
-
-<br>
-:pushpin: ER Diagram of database: <br>
-
-![alt text](https://i.hizliresim.com/u7rqgR.png)
-
-<br>
 
 <h2>
 Back-End
@@ -50,10 +34,6 @@ what actions it should perform and which set of rules it should pass through are
 <b>5-Presentation Layer:</b> It is the layer that appears to the user, that the user interacts with and sends commands to the program. <br>
 <b>6-Service Layer (Web API):</b> It is the part where the services that enable the Front-End part and other platforms to communicate with the program and perform operations are written. <br>
 
-:pushpin: General scheme of the project:
-<br><br>
-![alt text](https://i.hizliresim.com/fmnoOo.png)
-<br>
 
 <h3>
 Requirements for Back-End
@@ -96,38 +76,3 @@ npm install
 ```
 ng serve --open
 ```
-
-:pushpin: Some images from the project:
-<br><br>
-![alt text](https://i.hizliresim.com/t8ZIVI.png) <br>
-![alt text](https://i.hizliresim.com/5ne26l.png) <br>
-![alt text](https://i.hizliresim.com/qfVlQv.png) <br>
-![alt text](https://i.hizliresim.com/Ihqcyq.png) <br>
-![alt text](https://i.hizliresim.com/Hm3RQM.png) <br>
-![alt text](https://i.hizliresim.com/vkXjeY.png) <br>
-![alt text](https://i.hizliresim.com/VHJtrw.png) <br>
-![alt text](https://i.hizliresim.com/x4LrJa.png) <br>
-![alt text](https://i.hizliresim.com/tbbss3.png) <br>
-<br>
-
-<br>
-<h2>
-Contact
-</h2>
-Thank you for taking your time to read. You can contact me from my accounts below. <br>
-<br>
-
-<a href="https://www.github.com/melihkaratekin" target="_blank">
-
-![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-
-</a>
-<a href="https://www.linkedin.com/in/melihkaratekin" target="_blank">
-
-![alt text](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
-
-</a>
-
-
-
-<br>
